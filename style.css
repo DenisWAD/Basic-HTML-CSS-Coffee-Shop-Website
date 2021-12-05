@@ -14,13 +14,71 @@
 
 /* Main Page settings */
 body, html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: serif;
   line-height: 1.7rem;
 }
 
+/* Utility Classes */
+.primary_font {
+  color: #fff;
+  ;
+}
+
+.secondary_font {
+  color:  #d5d8dc ;
+}
+
+.italics {
+  font-style: italic;
+}
 
 /* Navbar settings */
-.navbar a {
-  text-decoration: none;
+
+.navbar {
+  background-color: #633f20 ;
+  overflow: auto;
+
 }
+
+.navbar .logo img {
+  float: left;
+
+  max-width: 6rem;
+  max-height: 6rem;
+  height: auto;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar li a {
+  text-decoration: none;
+  float: right;
+  padding: 2rem;
+  color: #fff;
+  
+}
+
+.navbar li a:hover {
+  color: aliceblue;
+  background-color: #062019;
+}
+
+/* Main showcase */
+.showcase_image {
+  background: url(/images/shop_interior.jpg) no-repeat center center/cover;
+  height: 60rem;
+}
+
+#showcase_tagline h2 {
+  padding-top: 15rem;
+  line-height: 10rem;
+  font-size: 6rem;
+  text-align: center;
+}
+
+
+
+
 
