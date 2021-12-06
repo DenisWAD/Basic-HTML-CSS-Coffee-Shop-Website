@@ -16,16 +16,18 @@
 body, html {
   font-family: serif;
   line-height: 1.7rem;
+  background-color: #633f20;
+  
 }
 
 /* Utility Classes */
 .primary_font {
   color: #fff;
-  ;
 }
 
 .secondary_font {
   color:  #d5d8dc ;
+  /* color:  #202a63 ; */
 }
 
 .italics {
@@ -42,7 +44,6 @@ body, html {
 
 .navbar .logo img {
   float: left;
-
   max-width: 6rem;
   max-height: 6rem;
   height: auto;
@@ -62,7 +63,7 @@ body, html {
 
 .navbar li a:hover {
   color: aliceblue;
-  background-color: #062019;
+  background-color: #5c5f5e;
 }
 
 /* Main showcase */
@@ -78,6 +79,36 @@ body, html {
   text-align: center;
 }
 
+/* Showcase Pictures */
+.showcase_info {
+  padding-top: 1rem;
+  height: 20rem;
+}
+
+.showcase_pics #pic1 {
+  background: url(/images/pic1.jpg) no-repeat center center/cover;
+}
+
+.showcase_pics #pic2 {
+  background: url(/images/pic2.jpg) no-repeat center center/cover;
+}
+
+.showcase_pics #pic3 {
+  background: url(/images/pic3.jpg) no-repeat center center/cover;
+}
+
+.showcase_pics #pic4 {
+  background: url(/images/pic4.jpg) no-repeat center center/cover;
+}
+
+.showcase_pics #pic5 {
+  background: url(/images/pic5.jpg) no-repeat center center/cover;
+}
+.showcase_pics .image_small {
+  height: 20rem; 
+  width: 20%;
+  float: left;
+}
 
 
 
