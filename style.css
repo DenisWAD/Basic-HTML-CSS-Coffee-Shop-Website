@@ -9,7 +9,7 @@
   margin: auto;
   max-width: 80%;
   overflow: auto;
-  padding: 0 1.5rem;
+  padding: 0 1.25rem;
 }
 
 /* Main Page settings */
@@ -80,36 +80,68 @@ body, html {
 }
 
 /* Showcase Pictures */
-.showcase_info {
+.showcase_pics {
   padding-top: 1rem;
   height: 20rem;
 }
 
-.showcase_pics #pic1 {
+.row_of_pics #pic1 {
   background: url(/images/pic1.jpg) no-repeat center center/cover;
 }
 
-.showcase_pics #pic2 {
+.row_of_pics #pic2 {
   background: url(/images/pic2.jpg) no-repeat center center/cover;
 }
 
-.showcase_pics #pic3 {
+.row_of_pics #pic3 {
   background: url(/images/pic3.jpg) no-repeat center center/cover;
 }
 
-.showcase_pics #pic4 {
+.row_of_pics #pic4 {
   background: url(/images/pic4.jpg) no-repeat center center/cover;
 }
 
-.showcase_pics #pic5 {
+.row_of_pics #pic5 {
   background: url(/images/pic5.jpg) no-repeat center center/cover;
 }
-.showcase_pics .image_small {
+.row_of_pics .image_small {
   height: 20rem; 
   width: 20%;
   float: left;
 }
 
+/* Showcase Info */
+.showcase_info {
+  height : 30rem;
+  padding-top: 2rem;
+}
 
+.showcase_info #left_half {
+  float: left;
+  background: url(/images/sc_info.jpg) no-repeat center center/cover;
+  /* min-height: 100%; */
+  min-height: 30rem;
+  width: 50%;
+}
 
+.showcase_info #right_half {
+  float: right;
+  width: 50%;
+  min-height: 30rem;
+  text-align: center;
+  padding: 12rem 2rem;
+  background: #5c5f5e;
+}
 
+/* Footer */
+footer {
+  margin-top: 5rem;
+  background: white;
+  height: 4rem;
+
+}
+
+footer .footerMain {
+  padding-top: 1rem;
+  text-align: center;
+}
