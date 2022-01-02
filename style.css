@@ -34,8 +34,29 @@ body, html {
   font-style: italic;
 }
 
-/* Navbar settings */
+.btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  color: #fff;
+  background: #333;
+  padding: .813rem 1.25rem;
+  border: none;
+}
 
+.bg_primary {
+  background-color: #633f20;  
+}
+
+.bg_grey {
+  background: #5c5f5e;
+}
+
+.bg_dark {
+  background: #333
+}
+
+
+/* Navbar settings */
 .navbar {
   background-color: #633f20 ;
   overflow: auto;
@@ -66,8 +87,9 @@ body, html {
   background-color: #5c5f5e;
 }
 
+
 /* Main showcase */
-.showcase_image {
+#showcase_image {
   background: url(/images/shop_interior.jpg) no-repeat center center/cover;
   height: 60rem;
 }
@@ -79,8 +101,33 @@ body, html {
   text-align: center;
 }
 
+
+/* Showcase Info */
+#showcase_info {
+  height : 30rem;
+  /* padding-top: 2rem; */
+}
+
+#showcase_info .left_half {
+  float: left;
+  background: url(/images/sc_info.jpg) no-repeat center center/cover;
+  /* min-height: 100%; */
+  height: 30rem;
+  width: 50%;
+}
+
+#showcase_info .right_half {
+  float: right;
+  width: 50%;
+  height: 30rem;
+  text-align: center;
+  padding: 12rem 2rem;
+  overflow: hidden;
+}
+
+
 /* Showcase Pictures */
-.showcase_pics {
+#showcase_pics {
   padding-top: 1rem;
   height: 20rem;
 }
@@ -110,34 +157,14 @@ body, html {
   float: left;
 }
 
-/* Showcase Info */
-.showcase_info {
-  height : 30rem;
-  padding-top: 2rem;
-}
 
-.showcase_info #left_half {
-  float: left;
-  background: url(/images/sc_info.jpg) no-repeat center center/cover;
-  /* min-height: 100%; */
-  min-height: 30rem;
-  width: 50%;
-}
 
-.showcase_info #right_half {
-  float: right;
-  width: 50%;
-  min-height: 30rem;
-  text-align: center;
-  padding: 12rem 2rem;
-  background: #5c5f5e;
-}
 
 /* Footer */
 footer {
   margin-top: 5rem;
-  background: white;
   height: 4rem;
+  color: white;
 
 }
 
