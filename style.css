@@ -157,6 +157,31 @@ body, html {
   float: left;
 }
 
+#products {
+  height: 30rem;
+  margin-top: 2rem;
+}
+
+#products h2 {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+#products .product_section {
+  width: 33%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  margin: 5rem 0rem;
+}
+
+#products .product_section .product_title {
+  margin: 2rem 0rem;
+}
+
+#products #product_beans {
+  background: url(./images/)
+}
 
 
 
