@@ -14,7 +14,7 @@
 
 /* Main Page settings */
 body, html {
-  font-family: serif;
+  font-family: 'Oswald', sans-serif;
   line-height: 1.7rem;
   background-color: #633f20;
   
@@ -54,6 +54,24 @@ body, html {
 .bg_dark {
   background: #333
 }
+
+.head_lg {
+  font-size: x-large;
+}
+
+.head_xlg {
+  font-size: xx-large;
+}
+
+.clr {
+  clear: both;
+}
+
+/* Padding classes */
+.py-1 {padding: 1rem, 0rem;}
+.py-2 {padding: 2rem, 0rem;}
+.py-3 {padding: 3rem, 0rem;}
+.py-4 {padding: 4rem, 0rem;}
 
 
 /* Navbar settings */
@@ -116,12 +134,19 @@ body, html {
   width: 50%;
 }
 
+#showcase_info .right_half h3 {  
+  padding: 7rem 0 2rem 0;
+
+}
+
 #showcase_info .right_half {
   float: right;
+  font-size: large;
+  padding: 0 3rem;
   width: 50%;
   height: 30rem;
   text-align: center;
-  padding: 12rem 2rem;
+  /* padding: 12rem 2rem; */
   overflow: hidden;
 }
 
@@ -167,33 +192,40 @@ body, html {
   padding-top: 2rem;
 }
 
+
 #products .product_section {
   width: 33%;
-  height: 100%;
+  height: 80%;
   float: left;
   text-align: center;
-  margin: 5rem 0rem;
+  padding-top: 5rem ;
 }
 
-#products .product_section .product_title {
-  margin: 2rem 0rem;
+#products .product_section .product_genre {
+  padding-top: 2rem;
 }
-
-#products #product_beans {
-  background: url(./images/)
-}
-
 
 
 /* Footer */
 footer {
-  margin-top: 5rem;
-  height: 4rem;
-  color: white;
-
+  padding: 2rem;
 }
 
 footer .footerMain {
   padding-top: 1rem;
+  text-align: center;
+}
+
+/* About Page */
+#about_image {
+  background: url(/images/interior2.jfif) no-repeat center center/cover;
+  /* opacity: .5; Opacity affecting child elements too. This is not what was wanted */
+  height: 60rem;
+}
+
+#about_image .about_tagline {
+  padding-top: 15rem;
+  line-height: 10rem;
+  font-size: 6rem;
   text-align: center;
 }
