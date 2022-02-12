@@ -136,7 +136,7 @@ body, html {
 
 #showcase_info .right_half h3 {  
   padding: 7rem 0 2rem 0;
-
+  
 }
 
 #showcase_info .right_half {
@@ -228,4 +228,33 @@ footer .footerMain {
   line-height: 10rem;
   font-size: 6rem;
   text-align: center;
+}
+
+#about_info {
+  height: 30rem;
+
+}
+
+#about_info .about_info_left {
+  height: 100%;
+  width: 40%;
+  float: left;
+  text-align: center;
+  padding: 0 3rem;
+  line-height: 2rem;
+
+}
+
+#about_info .about_info_left h2 {
+  padding: 7rem 0 2rem 0;
+}
+
+
+#about_info .about_info_right {
+  float: right;
+  background: url(/images/farmer.jpg) no-repeat center center;
+  width: 60%;
+  height: 30rem;
+
+
 }
