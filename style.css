@@ -68,12 +68,15 @@ body, html {
 }
 
 /* Padding classes */
-.py-1 {padding: 1rem, 0rem;}
-.py-2 {padding: 2rem, 0rem;}
-.py-3 {padding: 3rem, 0rem;}
-.py-4 {padding: 4rem, 0rem;}
+.py-1 {padding: 1rem 0rem;}
+.py-2 {padding: 2rem 0rem;}
+.py-3 {padding: 3rem 0rem;}
+.py-4 {padding: 4rem 0rem;}
 
-
+.px-1 {padding: 0rem 1rem;}
+.px-2 {padding: 0rem 2rem;}
+.px-3 {padding: 0rem 3rem;}
+.px-4 {padding: 0rem 4rem;}
 /* Navbar settings */
 .navbar {
   background-color: #633f20 ;
@@ -265,16 +268,17 @@ footer .footerMain {
   /* border: 2px black solid; */
 }
 
-#history .founder_pic {
-  /* background: url(/images/founder.jpg) no-repeat center center;
-  background-size: cover;
+#history .founder_pic img {
   border-radius: 50%;
-  width: 100%;
-  height: 5rem; */
-  background: url("/images/founder.jpg");
-  height: 20rem;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 300px 500px;
-  border-radius: 50%;
+  height: 30%;
+  width: 30%;
 }
+
+#history .founder_pic {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* #history .founder_pic h2,h3{
+  padding-top: 3rem;
+} */
