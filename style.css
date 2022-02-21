@@ -279,6 +279,73 @@ footer .footerMain {
   text-align: center;
 }
 
-/* #history .founder_pic h2,h3{
-  padding-top: 3rem;
-} */
+
+/* Contact Page */
+#contact_section {
+  margin-top: 1rem;
+  height: 30rem;
+  /* border: #333 dotted; */
+}
+
+#contact_section .contact_form {
+  width: 50%;
+  height: 100%;
+  float: left;
+  /* border: blue solid 1px; */
+}
+
+#contact_section .contact_form input {
+  width: 100%;
+  padding: .8rem;
+}
+
+#contact_section .contact_form input[type=submit] {
+  background-color: lightblue;
+} 
+
+#contact_section .social {
+  /* border: red solid 1px; */
+  float: right;
+  padding-left: 1rem;
+  width: 50%;
+  height: 100%;
+}
+
+#contact_section .social  {
+  text-align: center;
+}
+
+#social_media_bts {
+  list-style-type: none;
+  color: #fff;
+}
+
+/* From w3 Examples */
+#social_media_bts .fa{
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 20px;
+  border-radius: 50%;
+}
+
+#social_media_bts a {
+  padding-right: 1rem;
+}
+
+#social_media_bts .fa-facebook{
+  background: #3B5998;
+  color: white;
+}
+
+#social_media_bts .fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+#social_media_bts .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
