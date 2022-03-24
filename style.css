@@ -284,6 +284,7 @@ footer .footerMain {
 #contact_section {
   margin-top: 1rem;
   height: 30rem;
+  text-align: center;
   /* border: #333 dotted; */
 }
 
@@ -298,6 +299,12 @@ footer .footerMain {
   width: 100%;
   padding: .8rem;
 }
+
+#contact_section .contact_form textarea{
+  height: 100px;
+  width: 100%;
+}
+
 
 #contact_section .contact_form input[type=submit] {
   background-color: lightblue;
@@ -348,4 +355,29 @@ footer .footerMain {
 #social_media_bts .fa-twitter {
   background: #55ACEE;
   color: white;
+}
+
+#location {
+  margin-top: 1rem;
+  height: 500px;
+}
+
+#location .opening_hours {
+  text-align: center;
+  border: red solid 1px;
+  width: 50%;
+  height: 100%;
+  padding: 5rem 0 0 0;
+}
+
+#location .opening_hours h2{
+  padding-bottom: 5rem;
+}
+
+
+
+#location .opening_hours .right_align{
+  float: right; 
+  padding-right: 80px;
+
 }
