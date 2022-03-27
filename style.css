@@ -363,21 +363,30 @@ footer .footerMain {
 }
 
 #location .opening_hours {
-  text-align: center;
-  border: red solid 1px;
+  float: left;
+  /* border: red solid 1px; */
   width: 50%;
   height: 100%;
-  padding: 5rem 0 0 0;
 }
 
 #location .opening_hours h2{
-  padding-bottom: 5rem;
+  text-align: center;
+  margin: 5rem 0 0 0;
 }
 
-
+#location .opening_hours .times{
+  margin: 5rem 8rem 0 8rem;
+  font-size: larger;
+}
 
 #location .opening_hours .right_align{
   float: right; 
-  padding-right: 80px;
+}
 
+/* Set the size of the div element that contains the map */
+#map {
+  float: right;
+  /* border: red solid 1px; */
+  height: 100%;
+  width: 50%;
 }

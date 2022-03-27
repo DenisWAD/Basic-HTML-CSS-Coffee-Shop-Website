@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  <script src="/javascript/maps.js"></script>
   <title>Contact Us</title>
 </head>
 <body>
@@ -56,19 +57,22 @@
   <section id="location" class="container bg_dark">
     <div class="opening_hours primary_font">
       <h2 class="py-1 secondary_font">Opening Hours</h2>
-      <p>Mon- Fri <span class="right_align">8am - 5pm</span></p>
-      <p>Sat - Sun <span class="right_align">8am - 6pm</span></p>
-
-
-
+      <div class="times ">
+        <p>Mon- Fri <span class="right_align">8am - 5pm</span></p>
+        <p>Sat - Sun <span class="right_align">8am - 6pm</span></p>
+      </div>
+    </div>
+    <div id="map">
 
     </div>
-
-
-
-
-
+    
   </section>
+
+ 
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRmpSmmLZS46Ui41M31jAYg3o4-_R2ers&callback=initMap">
+  </script>
+
 
   <div class="clr"></div>
   
