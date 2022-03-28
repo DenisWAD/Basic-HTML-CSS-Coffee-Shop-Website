@@ -111,11 +111,24 @@ body, html {
 /* Footer */
 footer {
   padding: 2rem;
+  margin-top: 2rem;
+  border: red solid 1px;
 }
 
 footer .footerMain {
   padding-top: 1rem;
   text-align: center;
+}
+
+footer li {
+  display: inline;
+  color: #d5d8dc;
+  /* text-decoration: none; */
+}
+
+footer .footer_social_links{
+  float: right;
+  margin: 0 3rem 0 1rem;
 }
 
 
